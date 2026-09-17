@@ -9,8 +9,21 @@
     />
     <title>MyBiKE</title>
     <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
-      href="src/styles/main.scss"
+    />
+    <link
+      rel="stylesheet"
+      href="src/styles/style.css"
     />
     <script
       src="src/scripts/main.js"
@@ -22,11 +35,22 @@
     <header class="header">
       <div class="header__top">
         <a href="#">
-          <img src="src/images/logo-white.png" alt="MyBiKE logo">
+          <img
+            src="src/images/logo-white.png"
+            alt="MyBiKE logo"
+          />
         </a>
 
-        <a href="#" class="icon icon--phone"></a>
-        <a href="#" class="icon icon--menu"></a>
+        <div class="header__icons">
+          <a
+            href="#"
+            class="icon icon--phone"
+          ></a>
+          <a
+            href="#"
+            class="icon icon--menu"
+          ></a>
+        </div>
       </div>
 
       <div class="header__bottom">
@@ -34,26 +58,26 @@
       </div>
     </header>
 
-    <aside></aside>
+    <aside class="menu"></aside>
 
-    <main>
-      <section>
+    <main class="main">
+      <section class="about-us">
         <h2>Move Free</h2>
       </section>
 
-      <section>
-        <h2>Move Free</h2>
+      <section class="compare-bikes">
+        <h2>Compare bikes</h2>
       </section>
 
-      <section>
-        <h2>Move Free</h2>
+      <section class="details">
+        <h2>The details</h2>
       </section>
 
-      <section>
-        <h2>Move Free</h2>
+      <section class="contacts">
+        <h2>Contact us</h2>
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer"></footer>
   </body>
 </html>
