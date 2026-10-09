@@ -4,10 +4,14 @@
   background-color: #C2C2C2;
   font-weight: 600;
   text-transform: uppercase;
-  color: #1D1D1D;
+  color: $second-text-color;
 
   &__top {
     margin-bottom: 24px;
+
+    @include on-tablet {
+      margin-bottom: 8px;
+    }
   }
 
   &__nav {
@@ -31,7 +35,7 @@
     display: block;
     width: fit-content;
     padding-bottom: 7px;
-    border-bottom: 1px solid #1D1D1D;
+    border-bottom: 1px solid $second-text-color;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 2px;
